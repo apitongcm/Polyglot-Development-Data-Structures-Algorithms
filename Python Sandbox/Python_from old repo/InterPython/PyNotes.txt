@@ -1,0 +1,34 @@
+Dictionaries 
+useful dictionaries function is get, same as indexing. but if the key is not found in the
+dictionary it returns another specified value instead. 
+
+to run python in the terminal 
+-> F1 + Shift + Enter
+
+Tuples - similar to lists, they are immutable (they cannot be changed).
+Created by parentheses. 
+Tuples are faster than lists, but cannot be changed.
+
+variables that is prefaced with an asterisk(*) takes all values from the collection.
+
+Set - cannot contain duplicate elements
+you can both use add() and remove() for adding or deleting element inside the set.
+MATHEMATICAL OPERATIONS 
+[1]UNION (|) combines two set
+[2]INTERSECTION (&) gets items only in both.
+[3]DIFFERENCE (-) gets items in the first set but not in the second.
+[4]SYMMETRIC DIFFERENCE (^) gets items in either set, but not both.
+
+
+Lambda syntax - passing simple function as an argument to another function.
+
+Map and filter::
+map - takes function and an iterable as arguments, and returns a new iterable with function 
+applied to each argument.
+
+Generators ::
+Generators - iterable, don't allow indexing with arbitrary indices, but they can still be iterated
+through with for loops. 
+(created using "yield" statement)
+
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rengyu Cart</title>
+    <link rel="icon" href="./src/Rengyu pic.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+            <div class="navbar navbar-inverse">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#nav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="https://twitter.com/rengyucart" class="navbar-brand">Rengyu Cart</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="nav">
+                        <ul class="navbar-nav nav">
+                            <li><a href="https://twitter.com/rengyucart">Seller Centre</a></li>
+                            <li><a href="https://twitter.com/rengyucart">Sell on Rengyu</a></li>
+                            <li><a href="https://twitter.com/rengyucart">Download</a></li>
+                            <li><a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                Follow us <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://twitter.com/rengyucart"><i class="fab fa-facebook"></i>Facebook</a></li>
+                                <li><a href="https://twitter.com/rengyucart"><i class="fab fa-twitter"></i>Twitter</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="https://twitter.com/rengyucart"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li><a href="https://twitter.com/rengyucart"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 header">
+                        <div class="col-sm-4">
+                            <img src="./src/Rengyu.gif" alt="logo" width="100px">
+                        </div>
+                        <div class="col-sm-8 text-center">
+                            <h2>Rengyu Cart</h2>
+                            <p>"Satisfy your collection desire"</p>
+                        </div> 
+                    </div>
+                    <div class="col-sm-8">
+                        <form action="#">
+                            <div class="row">
+                                <div class="input-group">
+                                     <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                                    <input id="search" type="text" class="form-control" name="search" placeholder="Search">
+                                 </div>
+                             </div>
+                            <div class="row">
+                               <label for="" class="radio-inline">
+                                   <input type="radio" name="items" id="all" checked>
+                                   All
+                               </label>
+                               <label for="" class="radio-inline">
+                                   <input type="radio" name="items" id="lightstick">
+                                   Light Stick
+                               </label>
+                               <label for="" class="radio-inline">
+                                    <input type="radio" name="items" id="photocards">
+                                    Korean photo card
+                               </label>
+                               <label for="" class="radio-inline">
+                                <input type="radio" name="items" id="others">
+                                Others
+                           </label>
+                            </div>
+                        </form>
+                    </div>  
+                </div>
+            </div>
+    <!-- CAROUSEL-ADS -->
+    <div class="containter-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="carousel slide" id="carousel-Ads" data-ride="carousel">
+                        <!-- INDICATOR -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#carousel-Ads" class="active" data-slide-to="0"></li>
+                            <li data-target="#carousel-Ads" data-slide-to="1"></li>
+                            <li data-target="#carousel-Ads" data-slide-to="2"></li>
+                        </ul>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="./src/carousel1.png" alt="carousel-ads1">
+                            </div>
+                            <div class="item">
+                                <img src="./src/carousel2.png" alt="carousel-ads2">
+                            </div>
+                            <div class="item">
+                                <img src="./src/carousel3.png" alt="carousel-ads3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                   <img src="./src/myPoster.png" alt="poster" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <div class="row">  
+                <div id="card" class="card">
+       
+                </div>  
+            </div>
+        </div>
+    </div>  
+    <script src="https://kit.fontawesome.com/2cbd9951c0.js" crossorigin="anonymous"></script>  
+<script src="script.js"></script>
+</body>
+</html>

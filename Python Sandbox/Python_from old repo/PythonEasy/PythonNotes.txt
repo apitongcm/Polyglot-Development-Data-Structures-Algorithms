@@ -1,0 +1,14 @@
+For and While 
+For  - used when the number of iterations is fixed. (shopping list)
+While - used when number of iterations isn't known and depends on some calculations 
+and conditions in the code blocks of the code. 
+
+
+Ranges - range(3,8) the second argument is not included in the range.
+
+String Functions 
+[1]join - joins a list of strings with another string as a seperator
+[2]replace - replaces one substring in a string with another.
+[3]startswith and endswith - determine if there is a substring at the start and end of a string. (boolean)
+[4]lower and upper - changes the case of string 
+[5]split - opposite of join, turns a string with a certain seperator into a list. 
