@@ -1,0 +1,3 @@
+##Language Sandboxes: C++, Python, JavaScript, and More
+
+A comprehensive, actively maintained repository showcasing my proficiency across multiple modern and established programming languages, including Python, C++, JavaScript, Kotlin, PHP, and RUST. This collection primarily serves as a Data Structures and Algorithms (DSA) learning and implementation sandbox, demonstrating foundational computer science knowledge and the ability to rapidly adapt to various ecosystems. The frequent commits highlight active learning and commitment to continuous skill development in critical backend and system-level technologies.
